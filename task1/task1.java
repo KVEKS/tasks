@@ -12,7 +12,6 @@ public class task1 {
         List<String> lines = Files.readAllLines(Paths.get(fileNameIn), Charset.defaultCharset());
         ArrayList<Integer> list = new ArrayList<Integer>();
 
-        Collections.sort(list);
         for (String s : lines) {
             list.add(Integer.parseInt(s));
         }
