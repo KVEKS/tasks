@@ -9,11 +9,11 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         String dir = args[0];
 
-        List<String> cash1 = Files.readAllLines(Paths.get(dir + "\Cash1.txt"), Charset.defaultCharset());
-        List<String> cash2 = Files.readAllLines(Paths.get(dir + "\Cash2.txt"), Charset.defaultCharset());
-        List<String> cash3 = Files.readAllLines(Paths.get(dir + "\Cash3.txt"), Charset.defaultCharset());
-        List<String> cash4 = Files.readAllLines(Paths.get(dir + "\Cash4.txt"), Charset.defaultCharset());
-        List<String> cash5 = Files.readAllLines(Paths.get(dir + "\Cash5.txt"), Charset.defaultCharset());
+        List<String> cash1 = Files.readAllLines(Paths.get(dir + "\\Cash1.txt"), Charset.defaultCharset());
+        List<String> cash2 = Files.readAllLines(Paths.get(dir + "\\Cash2.txt"), Charset.defaultCharset());
+        List<String> cash3 = Files.readAllLines(Paths.get(dir + "\\Cash3.txt"), Charset.defaultCharset());
+        List<String> cash4 = Files.readAllLines(Paths.get(dir + "\\Cash4.txt"), Charset.defaultCharset());
+        List<String> cash5 = Files.readAllLines(Paths.get(dir + "\\Cash5.txt"), Charset.defaultCharset());
 
         ArrayList<Float> cash1list = new ArrayList<Float>();
 
